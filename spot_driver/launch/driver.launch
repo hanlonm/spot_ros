@@ -36,4 +36,6 @@
     <remap from="cmd_vel_out" to="spot/cmd_vel"/>
   </node>
 
+  <node    pkg="tf"    type="static_transform_publisher"    ns="spot"    name="hand_color_image_link"    args="-0.058 0.020 0.025 -0.459 0.459 -0.538 0.538 hand hand_color_image_sensor 100"  />
+
 </launch>
